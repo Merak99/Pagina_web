@@ -1,0 +1,176 @@
+.Notas{
+text-align: center;color: black;font-size: 5pc;
+}
+.Bien{
+    text-align: center;color: #592D33; font-size: 3pc;
+}
+body{
+    background:#FFF4EF;
+}
+.imagenes_texto{
+    border-top: 1px inset black;
+width: 100%;
+border-color: #000000;
+text-align: center;
+
+}
+#Mf{
+    text-align: center;color: #592D33; font-size: 2pc; 
+}
+
+
+.Logom{
+    width: 50px;
+    height: 50px;
+}
+.Timg{
+    text-align: center; background-color: beige;
+    font-weight: bold;
+}
+.container-fluid{
+    background-color: #B39F96;
+    font-weight: bold;
+}
+.MCE{
+    font-weight: bold;
+    text-align: center;
+    color: #592D33; 
+    font-size: 3pc;
+}
+.imagenes {
+    width: 333px;
+    text-align: center;
+}
+/*inicio slider automatico*/
+.slider {
+    display: flex;
+    position: relative;
+    animation: slide 10s linear infinite; /* Cambia la duración y el número de iteraciones según tus preferencias */
+}
+
+.slider a {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.slider img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0%);
+    }
+    20% {
+        transform: translateX(0%);
+    }
+    25% {
+        transform: translateX(-100%);
+    }
+    45% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+    70% {
+        transform: translateX(-200%);
+    }
+    75% {
+        transform: translateX(-300%);
+    }
+    95% {
+        transform: translateX(-300%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+/*fin del slider*/
+
+   /* Contenedor principal del artista */
+.artista-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Contenedor principal del artista */
+.artista-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* Estilos para la información del artista */
+.artista-info {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    text-align: center; /* Centra el texto en el contenedor */
+}
+
+.artista-info img {
+    max-width: 100%;
+}
+
+/* Estilos para los álbumes */
+.albumes {
+    flex: 1;
+    max-width: 50%;
+    display: flex;
+    flex-direction: row; /* Cambia la dirección de flexión a horizontal */
+    justify-content: space-around; /* Espacia uniformemente los álbumes horizontalmente */
+    align-items: center;
+    background-color: #84B3AE;
+}
+
+.album {
+    margin: 10px;
+    text-align: center;
+   
+}
+.album img {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+/* Estilos para las canciones */
+.canciones {
+    display: none;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.album:hover .canciones {
+    display: block;
+}
+
+.Peliculas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Peliculas ul li {
+    margin-bottom: 5px;
+}
+
+#TS{
+    text-align: center; background-color: #B39F96;
+   
+}
+h1{
+    text-align: center; color: #592D33;
+}
+.por{
+  
+        width: 500px;
+        height: auto;
+        
+}
